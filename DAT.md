@@ -11,7 +11,7 @@ Plusieurs package ont ete cree dans le projet, avant d'y travailler, nous vous l
 - __controllers__: Ici, on mettra chacun des endpoints du projet, ce sera le point d'entree des requetes et leur point de sortie
 - __services__: Ici, on fera toutes les actions directement liees aux modeles
 - __helpers__: Ici, on mettra les fonctions qui se repetent pour les reutiliser plus facilement dans le projet
-
+    
 ## __Les flows cote Front__
 
 ### __Affichage Histogramme Graphe__  
