@@ -6,17 +6,21 @@ management:
   info:
     env:
       enabled: true
+
 info:
   app:
     name: "KPIBuilder"
     description: "KPIBuilder est un module permettant de generer des statistiques dans les projets Java Spring Boot"
     java:
       version: 17
+
 spring:
+  config:
+    import: optional:file:.env[.properties]
   datasource:
-    url: jdbc:h2:mem:mydb
-    username: root
-    password: password
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
     driverClassName: org.h2.Driver
   jpa:
     properties:
@@ -24,4 +28,7 @@ spring:
         dialect: org.hibernate.dialect.H2Dialect
   h2:
     console.enabled: true
-    
+
+logging:
+  level:
+    web: info

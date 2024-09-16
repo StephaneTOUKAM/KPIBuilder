@@ -15,18 +15,18 @@ Plusieurs package ont ete cree dans le projet, avant d'y travailler, nous vous l
 ## __Les flows cote Front__
 
 ### __Affichage Histogramme Graphe__  
-![alt Histogramme Graphe](src/main/resources/static/images/mermaid-front-get-histogramme-stats.png?raw=true "Histogramme Graphe")
+![alt Histogramme Graphe](src/main/resources/static/modelisation/images/mermaid-front-get-histogramme-stats.png?raw=true "Histogramme Graphe")
 
 ### __Affichage Pie Chart Graphe__  
-![alt Pie Chart Graphe](src/main/resources/static/images/mermaid-front-get-pie-chart-stats.png?raw=true "Pie Chart Graphe")  
+![alt Pie Chart Graphe](src/main/resources/static/modelisation/images/mermaid-front-get-pie-chart-stats.png?raw=true "Pie Chart Graphe")  
 
 ## __Les flows cote Back__
 
 ### __Affichage Tous les modeles__  
-![alt Tous les modeles](src/main/resources/static/images/mermaid-req-get-models.png?raw=true "Tous les modeles")
+![alt Tous les modeles](src/main/resources/static/modelisation/images/mermaid-req-get-models.png?raw=true "Tous les modeles")
 
 ### __Affichage Modele Specifique__  
-![alt Modele Specifique](src/main/resources/static/images/mermaid-req-get-specific-model.png?raw=true "Modele Specifique")
+![alt Modele Specifique](src/main/resources/static/modelisation/images/mermaid-req-get-specific-model.png?raw=true "Modele Specifique")
 
 ### __Affichage Construction Stats Data__  
-![alt Construction Stats Data](src/main/resources/static/images/mermaid-req-build-stats.png?raw=true "Construction Stats Data")
+![alt Construction Stats Data](src/main/resources/static/modelisation/images/mermaid-req-build-stats.png?raw=true "Construction Stats Data")
